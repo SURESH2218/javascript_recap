@@ -91,3 +91,33 @@
 // };
 
 // sheryiansStuedent.__proto__ = human; //we are inheriting the properties of human
+
+// call apply bind
+
+//call
+
+// function abcd() {
+//   console.log(this.name);
+// }
+
+// var obj = {
+//   name: "suresh",
+// };
+
+// abcd.call(obj);
+
+//apply
+// function abcd(val, val1, val2) {
+//   console.log(this, val1, val2, val1);
+// }
+
+// var obj = {
+//   name: "suresh",
+// };
+
+// abcd.apply(obj, [1, 2, 3]);
+
+// bind
+
+// var a = abcd.bind(obj);
+// a();
