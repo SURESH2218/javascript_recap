@@ -49,9 +49,45 @@
 
 //array or object
 
-var a = {
-  age: 0,
-  name: "suresh",
-};
-var b = [1, 3, 3, 5, 6, 7];
-console.log(typeof a, Array.isArray(a), Array.isArray(b));
+// var a = {
+//   age: 0,
+//   name: "suresh",
+// };
+// var b = [1, 3, 3, 5, 6, 7];
+// console.log(typeof a, Array.isArray(a), Array.isArray(b));
+
+//Higher order function
+
+// function abcd(val) {}
+
+// abcd(function () {});
+
+// function abcd() {
+//   return function () {};
+// }
+// abcd();
+
+//constructor funciotns
+
+// function circularButton(color) {
+//   this.color = color;
+//   this.width = 23;
+//   this.height = 0;
+// }
+// var ob = new circularButton("green");
+// var ob1 = new circularButton("red");
+// var ob2 = new circularButton("blue");
+
+//prototype Inheritence
+
+// var human = {
+//   name: "suresh",
+//   canFly: false,
+//   canWalk: false,
+// };
+
+// var sheryiansStuedent = {
+//   canMakeWebsites: true,
+// };
+
+// sheryiansStuedent.__proto__ = human; //we are inheriting the properties of human
